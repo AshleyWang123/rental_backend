@@ -57,4 +57,3 @@ DELETE http://39.106.222.220:8888/api/delCar/car001
 DELETE http://39.106.222.220:8888/api/delCustomer/Customer001
 DELETE http://39.106.222.220:8888/api/delOrder/order001
 ```
-# rental_backend
