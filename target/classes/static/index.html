@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Server Test</title>
+</head>
+<body>
+<div>
+    <h1>Server Test</h1>
+    <h3>car</h3>
+    <ul>
+        <li>GET http://39.106.222.220:8888/api/getCars</li>
+        <li>GET http://39.106.222.220:8888/api/getCars/Car001</li>
+        <li>POST http://39.106.222.220:8888/api/addCar <br>
+            {"car_Id":"Car003","model":"test test","available":3}</li>
+        <li>DELETE http://39.106.222.220:8888/api/delCar/car001</li>
+    </ul>
+    <h3>customer</h3>
+    <ul>
+        <li>GET http://39.106.222.220:8888/api/getCustomers</li>
+        <li>GET http://39.106.222.220:8888/api/getCustomers/Customer001</li>
+        <li>POST http://39.106.222.220:8888/api/addCustomer<br>
+            {"customer_Id":"Customer003","name":"test test","phone":"123456789"}</li>
+        <li>DELETE http://39.106.222.220:8888/api/delCustomer/Customer001</li>
+    </ul>
+    <h3>order</h3>
+    <ul>
+        <li>GET http://39.106.222.220:8888/api/getOrders</li>
+        <li>GET http://39.106.222.220:8888/api/getOrders/order001</li>
+        <li>POST http://39.106.222.220:8888/api/addOrder<br>
+            {"order_id":"order003","order_date":"2021-01-28","quantity":1,"car_Id":"Car001","customer_Id":"Customer002"}</li>
+        <li>DELETE http://39.106.222.220:8888/api/delOrder/order001</li>
+    </ul>
+</div>
+</body>
+</html>
